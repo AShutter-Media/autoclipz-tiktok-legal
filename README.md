@@ -28,9 +28,9 @@ Importante:
 
 El texto “upload to …/index.html/” en TikTok significa **la misma carpeta que tu sitio** (donde está `index.html`), **no** dentro del archivo HTML. El `.txt` va en la **raíz del repo** junto a `index.html`.
 
-Nombre del archivo (ejemplo): `tiktokPP8IHX5A80trSb5ortbbV4m4q1R0mwPD.txt` — debe coincidir **exactamente** con el que descargaste (sin “ (1)” que añade macOS). URL de comprobación:
+Nombre del archivo (ejemplo): `tiktokTx3Ar1zBmQyE3gz42NHKcIeXaex6o2OU.txt` — debe coincidir **exactamente** con el que descargaste (sin “ (1)” que añade macOS). URL de comprobación:
 
-`https://ashutter-media.github.io/autoclipz-tiktok-legal/tiktokPP8IHX5A80trSb5ortbbV4m4q1R0mwPD.txt`
+`https://ashutter-media.github.io/autoclipz-tiktok-legal/tiktokTx3Ar1zBmQyE3gz42NHKcIeXaex6o2OU.txt`
 
 En **TikTok for Developers** → tu app → verificación **URL prefix**:
 
