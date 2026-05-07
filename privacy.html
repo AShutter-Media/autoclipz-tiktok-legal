@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Privacy Policy</title>
+  <title>Privacy Policy — Postiz</title>
+  <link rel="icon" type="image/png" href="icon.png">
   <style>
     body { font-family: system-ui, sans-serif; max-width: 820px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #111; }
     h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
@@ -11,18 +12,23 @@
     code { background: #f4f4f4; padding: 0.1rem 0.25rem; border-radius: 4px; }
     a { color: #0b57d0; }
     ul { padding-left: 1.2rem; }
+    header { display: flex; align-items: center; gap: 12px; padding-bottom: 1rem; border-bottom: 1px solid #eee; margin-bottom: 1.5rem; }
+    header img { width: 48px; height: 48px; border-radius: 8px; }
+    header span { font-size: 1.2rem; font-weight: 600; }
   </style>
 </head>
 <body>
+  <header>
+    <img src="icon.png" alt="Postiz">
+    <span>Postiz</span>
+  </header>
   <h1>Privacy Policy</h1>
   <p><strong>Last updated:</strong> April 22, 2026.</p>
-
   <p>
-    This Privacy Policy explains how Postiz (“we”, “us”) processes information when you use our
+    This Privacy Policy explains how Postiz ("we", "us") processes information when you use our
     self-hosted social scheduling application and connect third-party social accounts
     via OAuth.
   </p>
-
   <h2>Information we process</h2>
   <ul>
     <li><strong>Account information you provide</strong>: email, company/name (if entered), and basic profile details needed to use the app.</li>
@@ -30,46 +36,35 @@
     <li><strong>Content you upload</strong>: media files (videos/images) and post text you choose to schedule/publish.</li>
     <li><strong>Usage and logs</strong>: basic logs and diagnostics used to operate and secure the service.</li>
   </ul>
-
   <h2>How we use information</h2>
   <ul>
     <li>Provide core functionality: account linking, scheduling, publishing, and status tracking.</li>
     <li>Operate and secure the service: prevent abuse, troubleshoot failures, and maintain reliability.</li>
     <li>Comply with legal obligations when required.</li>
   </ul>
-
   <h2>Sharing</h2>
-  <p>
-    We share data only as needed to deliver the service:
-  </p>
+  <p>We share data only as needed to deliver the service:</p>
   <ul>
     <li><strong>Social platforms</strong>: content and required metadata are transmitted to connected providers when you publish.</li>
     <li><strong>Service providers</strong>: infrastructure services (e.g., hosting/storage/email) if enabled by the self-host operator.</li>
   </ul>
-
   <h2>Retention</h2>
   <p>
     We retain uploaded media and scheduled posts for as long as the self-host operator keeps them, or until you delete them.
     OAuth tokens are retained while an integration is connected and may be removed when you disconnect the provider.
   </p>
-
   <h2>Security</h2>
   <p>
     We take reasonable measures to protect data, including restricting access and using encryption in transit where applicable.
     No method of transmission or storage is 100% secure.
   </p>
-
   <h2>Your choices</h2>
   <ul>
     <li>Disconnect social integrations to revoke future access.</li>
     <li>Delete posts and uploaded media where supported by the application.</li>
   </ul>
-
   <h2>Contact</h2>
-  <p>
-    For privacy questions, contact the site operator for this deployment.
-  </p>
-
-  <p><a href="index.html">Home</a></p>
+  <p>For privacy questions, contact the site operator for this deployment.</p>
+  <p><a href="index.html">← Home</a></p>
 </body>
 </html>
